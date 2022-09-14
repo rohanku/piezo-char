@@ -2,6 +2,8 @@
 
 MATLAB library for interfacing with a Keysight LCR meter. Includes an API for running frequency sweeps.
 
+Scripts were initially written by Meraj Ghanbari.
+
 ## Contents
 
 [`LCRMeter.m`](https://github.com/rohanku/piezo-char/blob/master/lcr/LCRMeter.m): Basic interface for communicating with the LCR meter.
