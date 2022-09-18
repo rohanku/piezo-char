@@ -33,7 +33,7 @@ classdef LCRMeter
     function cmd(lcr, cmd)
       % Send command to LCR meter.
 
-      lcr.client.write(cmd);
+      lcr.client.write(strcat(cmd, "\n"));
     end
 
     function listfreq(lcr, frequencies)
