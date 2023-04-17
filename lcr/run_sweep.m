@@ -13,7 +13,7 @@ lcrSweep = LCRSweep(lcr, frequencies);
 lcrSweep = lcrSweep.run();
 
 % Plot data and write results to the given output files.
-lcrSweep.processdata("piezo_measurements/9_8_2022/p3anchor_air");
+lcrSweep.processdata("piezo_measurements/12_9_2022/b1hole_air");
 
 % Disconnect from LCR meter.
 clear lcrSweep lcr
